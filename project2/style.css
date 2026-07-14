@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body,html{
+    height: 100% calc(100%-100%-350px)100%,350px;
+    width: 100%;
+    color:white;
+    background: black;
+    
+}
+#cards{display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 20px;
+    width:100%;
+    height:100%;
+     margin-top: 15px;
+                                     
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.card{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border: 1px solid rgb(254, 127, 22);
+    border-radius: 18px;
+    background-color: black;
+    text-align: center;  
+      
+}
+.card img{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:3px;
+    width:244px;
+    height: 242px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+h4{
+    margin-top: 250px;
+}
+.card p{
+    margin: 8px;
+    margin-top: 0;
+    
+}
+h3{
+    color: orange;
+    text-decoration: overline;
+    line-height: 30px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+.Chefs{position: relative;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+    border: 1px solid rgb(248, 105, 16);
+    border-radius: 20px;
+    padding: 50px;
+    margin: 20px 20px 20px 20px;
+   
+    
+}
+.Chefs h3{
+    position:absolute;
+    top:20px;
+    left: 393px;
+    color: orange;
+    text-decoration: none;
+}
+
+.Chefs h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-left:347px;
+}
+#first {position: absolute;
+        top:105px;
+        margin-left: 347px;
+}
+#second{
+    margin-top:25px;
+    line-height: 1.7;
+    margin-left: 347px;
+    
+}
+  
+
+.Chefs button{
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    padding: 12px 40px 12px 20px ;
+    border-radius: 30px;
+    margin-top:15px;
+    margin-left: 347px;
+    font-size: 15px;
+}
+.button i {
+    font-size: 20px;  
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.btn{
+    display: flex;
+    gap: 25px;
+}
+
+#social{display: flex;
+    flex-direction:row;
+    align-items:center;
+    margin-right:40px;
+    gap:10px;
+    
+    
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.icons i{
+   height: 30px;
+   width:30px;
+   border: 1px solid orange;
+   border-radius: 50%; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: orange;
+   font-size: 20px;
+}
+
+
