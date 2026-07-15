@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body,html{
+    height: 100% ;
+    width: 100%;
+    color:white;
+    background: black;
+    
+}
+header{
+    background-color: black;
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+   
+    
+}
+nav{display: flex;
+    flex-direction: row;
+    gap:20px;   
+}
+
+nav a{
+text-decoration: none;
+color: white;
+}
+.logo{display: flex;
+    align-items: center;
+    color: aliceblue;
+    margin-left:105px;
+}
+.logo svg{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.logo h2{
+    margin:0;
+}
+header button{
+border: none;
+border-radius:10px;
+background-color:#222;
+color: white;
+padding:8px 15px 8px 15px;
+margin-right:-60px;
+}
+.text h1{font-size: 80px;
+         
+
+}
+.category button{
+   
+    border-radius: 30px;
+    padding:8px 15px 8px 15px;
+    margin-top: 30px;
+    border: none;
+}
+.category{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.mid{
+    text-align: center;
+    margin-top:30px;
+    font-size:65px;
+}
+.efect{background-color: rgb(220, 97, 15);
+    border: none;
+
+}
+.cards{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top: 60px;
+}
+.card{
+    width: 350px;
+    background: #111;
+    border: 1px solid rgb(58, 30, 30);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.card img{width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+}
+.content button{
+    background-color:rgb(233, 69, 4);
+    border-radius: 30px;
+    border: none;
+    padding: 5px;
+}
+.content{padding: 20px;
+    margin-bottom:40px;
+
+}
+.content p{
+    padding: 8px;
+    font-size: small;
+
+}
+.content h3{
+    padding:10px;
+}
